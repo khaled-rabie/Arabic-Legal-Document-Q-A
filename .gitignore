@@ -1,0 +1,25 @@
+# ── Python 
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# ── Secrets
+.env
+
+#  Test / lint caches 
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ── Generated artifacts (rebuilt by the pipeline) 
+artifacts/
+mlruns/
+mlflow.db
